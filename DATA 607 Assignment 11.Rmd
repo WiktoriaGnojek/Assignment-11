@@ -1,0 +1,35 @@
+---
+title: '"Instagram’s Explore Recommender System"'
+author: "Wiktoria Gnojek"
+date: "11/8/2021"
+output: html_document
+---
+**Assignment 11**
+
+Identify a recommender system web site, then answer the three scenario design questions for this web site.  
+
+The source I will be using can be found at the following link; https://instagram-engineering.com/powered-by-ai-instagrams-explore-recommender-system-7ca901d2a882
+
+In my assignment I will be looking at the Instagram recommender system, more specificially the explore page. 
+
+The explore page is a custom created query language that is able to extract billions of features and predict millions of models every second. 
+
+1) Who are the target users?
+
+The target users are everyone and anyone who uses Instagram. This can range from everyday users, brands, businesses, and more. How the algorithm views its users is on a candidate basis. Instagram is able to understand interaction between accounts and label specific ones as "seed accounts". These are the accounts an everyday user views, likes, or saves pictures from. Based on these "seed accounts", Instagram is able to recommend that same user similar content. 
+
+2) What are their goals? 
+
+Their goal is to not only recommend you other content to engage with, but also to possibly open your mind up to similar content that you might have not considered as similar in the first place. "We also want Explore to be a place where people can discover a rich balance of both new interests alongside existing interests."
+
+As quoted above from the article, the explore page is almost what it is named after.
+
+I also think that Instagram uses algorithms to promote businesses and other sponsored content. 
+
+3) How can you help them accomplish those goals?
+
+"One of the most exciting parts of building Explore is the ongoing challenge of finding new and interesting ways to help our community discover the most interesting and relevant content on Instagram." 
+
+The main way to continuously develop is to consume the content and feed into the algorithm. As a lot know, Instagram is also a business and this algorithm has a side to it that can be used for business intelligence. The developers are constantly tracking what we do on the platform, and using it to create new features or more efficient recommendations. 
+
+"We rank the most relevant content based on the final value model score of each ranking candidate in a descendant way. Our offline replay tool — along with Bayesian optimization tools — helps us tune the value model efficiently and frequently as our systems evolve."
